@@ -53,7 +53,9 @@
             <li><%= link_to "Link3", "/path3"  %></li>
           </ul>
           <ul class="nav navbar-right col-md-4">
+            <!-- checks if a user is signed in or not -->
             <% if current_user %>
+            <!-- if signed in show email address and logout button -->
               <li class="col-md-8 user-name">
               <%= link_to ('<i class="fa fa-user"></i> ' + truncate(current_user.email, length: 25)).html_safe,
               edit_user_registration_path, title: 'Edit Profile' %>
