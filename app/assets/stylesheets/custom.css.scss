@@ -63,14 +63,14 @@
 
 .features {
   ul {
-  margin-left: 0;
-  padding-left: 15px;
+    margin-left: 0;
+    padding-left: 15px;
   }
 }
 
 .jumbotron {
   text-align: center;
-  background-image: asset-url('meeting.png');
+  background-image: asset-url('banner.jpg');
   background-size: cover;
   color: #fff;
   font-family: 'Helvetica Neue' !important;
@@ -83,18 +83,13 @@
 /*
 
 h2 {
-
-font-size: 35px !important;
-
-.lead {
-
-font-family: 'Helvetica Neue' !important;
-
-font-size: 30px !important;
-
+  font-size: 35px !important;
+  .lead {
+    font-family: 'Helvetica Neue' !important;
+    font-size: 30px !important;
+  }
 }
-
-} */
+ */
 
 }
 
