@@ -101,3 +101,20 @@ h2 {
   list-style: none;
   padding-left: 0;
 }
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: 0;
+}
+
+.site-footer{
+  background: #0288D1;
+  height: 130px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 100px;
+
+  .vertical{
+    line-height: 120px;
+  }
+}
