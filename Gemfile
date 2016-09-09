@@ -12,6 +12,7 @@ gem 'devise'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'devise-bootstrap-views'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'stripe'
 
 group :development, :test do
   gem 'byebug'
