@@ -8,3 +8,4 @@ To view the project, visit the link on the description section or set up locally
 - run ```rake db:migrate``` to generate migrations for db
 - start your server. i.e ```rails s```
 - visit your localhost and enjoy!
+- to visit the site on heroku visit [this link](http://stripephoto.herokuapp.com/ "stripe photo")
