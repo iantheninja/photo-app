@@ -11,13 +11,13 @@ gem 'jbuilder', '~> 2.0'
 gem 'devise'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'devise-bootstrap-views'
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', '>= 0.4.0', group: :doc
 gem 'stripe'
 
 group :development, :test do
   gem 'byebug'
   gem 'sqlite3'
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '>= 2.0'
   gem 'spring'
 end
 
